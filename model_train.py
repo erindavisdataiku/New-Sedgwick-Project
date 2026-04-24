@@ -14,10 +14,10 @@ from xgboost import train
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # 1. Load the dataset
-print("Loading data...")
-file_path = r'/Users/erin.davis@dataiku.com/Desktop/VS Code Projects/New Sedgwick Project/clv_train_test.csv'
-df = pd.read_csv(file_path, dtype=object, nrows=50000)
-print(df.isna().sum())
+#print("Loading data...")
+#file_path = r'/Users/erin.davis@dataiku.com/Desktop/VS Code Projects/New Sedgwick Project/clv_train_test.csv'
+#df = pd.read_csv(file_path, dtype=object, nrows=50000)
+#print(df.isna().sum())
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Select subset of features for model training
